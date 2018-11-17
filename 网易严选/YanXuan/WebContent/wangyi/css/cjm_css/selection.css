@@ -1,0 +1,286 @@
+/*轮播图*/
+#slide{
+	width: 100%;
+	height: 420px;
+	position: relative;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+#slide ul li{
+	position: absolute;
+	
+}
+#slide ul li a img{
+	height: 420px;
+	width: 100%;
+}
+#slight{
+	position: absolute;
+	bottom: 20px;
+	margin: 0 auto;
+	height: 8px;
+}
+#slight span{
+	display: block;
+	margin: 0 10px;
+	float: left;
+	cursor: pointer;
+	height: 8px;
+	width: 8px;
+	border-radius: 8px;
+	border: none;
+	background: #FFFFFF;
+}
+#slight .alight{
+	box-shadow: 0 0 0 4px #dfcead;
+	background: #a7936e;
+}
+
+#s_nav{
+	position: absolute;
+	width: 190px;
+	height: 420px;
+	margin-top: 6px;
+}
+#s_nav a{
+	display: block;
+	text-align: center;
+	margin-bottom: 2px;
+	padding-top: 20px;
+	width: 180px;
+	height: 100px;
+	border-radius: 2px;
+	background: rgba(255,255,255,.8);
+	height: 100px;
+	margin-bottom: 2px;
+	font-size: 16px;
+	color: #666;
+}
+#s_nav a i{
+	display: block;
+	margin: 2px auto;
+	height: 42px;
+	width: 42px;
+	background: url(../../img/cjm_img/sbg1.png);
+	background-position: 0px -114px;
+}
+#s_nav .s_nav1 i{
+	background-position: 0px -114px;
+}
+#s_nav .s_nav2 i{
+	height: 34px;
+	width: 42px;
+	margin-bottom: 8px;
+	background-position: 0px 0px;
+}
+#s_nav .s_nav3 i{
+	height: 38px;
+	width: 42px;
+	margin-bottom: 4px;
+	background-position: 0px -34px;
+}
+#s_nav .s_nav4 i{
+	background-position: 0px -72px;
+}
+
+#s_nav .s_nav1:hover i{
+	background-position: 42px -114px;
+}
+#s_nav .s_nav2:hover i{
+	background-position: 42px 0px;
+}
+#s_nav .s_nav3:hover i{
+	background-position: 42px -34px;
+}
+#s_nav .s_nav4:hover i{
+	background-position: 42px -72px;
+}
+#s_nav a:hover{
+	background: rgba(178,159,124,.8);
+	color: #FFFFFF;
+}
+
+
+/*-----------scon-------------*/
+.scon{
+	width: 1090px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.scon_hd{
+	height: 128px;
+}
+.line{
+	width: 50px;
+	height: 2px;
+	background: #333;
+	margin: 15px auto 20px;
+}
+
+.sparts{
+	
+}
+.sparts_head{
+	padding: 22px 22px;
+	width: 1090px;
+	height: 106px;
+	background: #FFFFFF;
+}
+.sparts_head span{
+	display: block;
+	width: 100px;
+	height: 40px;
+	float: left;
+	font-size: 22px;
+	color: #B4A078;
+}
+.sparts_head .sparts_word{
+	float: left;
+	display: inline-block;
+	font-size: 22px;
+	color: #151515;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin-left: 5px;
+}
+.shead_tit{
+	clear: both;
+	width: 1090px;
+	height: 30px;
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0;
+	padding-right: 20px;
+	line-height: 23px;
+	display: inline-block;
+}
+.s_sample{
+	width: 1110px;
+	height: 736px;
+	position: relative;
+	margin-bottom: 40px;
+	background: #fff;
+	line-height: 1;
+	overflow: hidden;
+}
+.sample_item{
+	float: left;
+	width: 257px;
+	height: 324px;
+	/*background: #666666;*/
+	text-align: center;
+	color: #333;
+	margin-bottom: 44px;
+	margin-right: 20px;
+}
+.likeArea{
+	width: 257px;
+	height: 47px;
+	position: relative;
+}
+
+.imgWrapper{
+	width: 257px;
+	height: 257px;
+	position: relative;
+}
+.imgWrapper_bg{
+	display: none;
+	position: absolute;
+	z-index: 99;
+	height: 70px;
+	width: 70px;
+	top: 91px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	cursor: pointer;
+	background: url(../../img/cjm_img/sbg3.png);
+	background-position: 0px -5287px;
+}
+.likeArea_top{
+	/*display: none;*/
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 257px;
+	height: 65px;
+}
+.likeArea_tit{
+	display: inline-block;
+	padding: 0 8px;
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0;
+	line-height: 14px;
+	width: 141px;
+	height: 24px;
+}
+.likeArea_top_tit{
+	width: 141px;
+	height: 41px;
+	margin: 0 auto;
+	/*padding: 20px 0px;*/
+}
+.likeArea_line{
+	display: block;
+	float: left;
+	width: 25px;
+	height: 2px;
+	background: #999999;
+	margin-top: 16px;
+}
+.likeArea_top_tit i{
+	display: block;
+	float: left;
+	width: 23px;
+	height: 20px;
+	margin-left: 14px;
+	margin-right: 8px;
+	margin-top: 10px;
+	background: url(../../img/cjm_img/sbg2.png);
+	background-position: 0px -4088px;
+}
+.likeArea_top_tit span{
+	display: block;
+	float: left;
+	line-height: 41px;
+	margin-right: 14px;
+	text-align: center;
+}
+.likeArea_bot{
+	/*display: none;*/
+	opacity: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 257px;
+	height: 65px;
+	padding: 0px 36px;
+}
+.likeArea_bot_con{
+	float: left;
+	width: 120px;
+	height: 65px;
+}
+.likeArea_bot_con i{
+	display: block;
+	/*position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	top: -3px;*/
+	margin: 0 auto;
+	height: 26px;
+	width: 30px;
+	background: url(../../img/cjm_img/sbg2.png);
+	background-position: 0px -4118px;
+}
+.likeArea_bot_con span{
+	display: block;
+	width: 40px;
+	height: 24px;
+	line-height: 24px;
+	color: #333;
+    margin: 0 auto;
+    text-align: center;
+}

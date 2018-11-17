@@ -1,0 +1,36 @@
+.main {
+	width: 100%;
+}
+
+.k_first {
+	position: relative;
+	height: 600px;
+	width: 100%;
+}
+
+.k_firstul li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.k_firstul li img {
+	position: relative;
+	left: -20%;
+}
+
+.k_qrcode {
+	position: absolute;
+	width: 142px;
+	height: 142px;
+	top: 311px;
+	right: 364px;
+}
+
+/*.k_qrcode img {
+	width: 142px;
+	height: 142px;
+}*/

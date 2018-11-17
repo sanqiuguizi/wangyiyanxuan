@@ -1,0 +1,156 @@
+.lunbo
+{
+	height: 600px;
+	width: 100%;
+}
+
+.lunbo .pc
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.lunbo .pc>div
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+}
+.lunbo .pc .ewm2
+{
+    left: 959px;
+    top: 317px;
+	z-index: 100;
+	width: 143px;
+	height: 143px;
+	background: url(../img/zt-img/ewm2.png) no-repeat -65px -35px;
+}
+
+.lunbo .pc .adown
+{
+	z-index: 100;
+	height: 34px;
+	width: 28px;
+	background: url(../img/zt-img/adown.gif);
+	bottom: 0;
+	left: 50%;
+	margin-left: -14px;
+}
+.lunbo .pc1
+{
+	background: url(../img/zt-img/lb1.jpg) no-repeat 50% 0;
+}
+.lunbo .pc2
+{
+	background: url(../img/zt-img/lb2.jpg) no-repeat 50% 0;
+}
+.lunbo .pc3
+{
+	background: url(../img/zt-img/lb3.jpg) no-repeat 50% 0;
+}
+
+.lunbo .pc .rules
+{
+	position: absolute;
+	display: block;
+	z-index: 100;
+	width: 100px;
+	left: 987px;
+	top: 470px;
+	text-align: center;
+}
+
+.lunbo .pc .rules span
+{
+	font-size: 14px;
+	color: #333;
+}
+
+.lunbo .pc .rule
+{
+	display: none;
+	padding-left: 10px;
+	line-height: 22px;
+	position: absolute;
+	width: 400px;
+	height: 90px;
+	background: white;
+	z-index: 100;
+	left: 838px;
+	top: 495px;	
+}
+
+
+.item1
+{
+	height: 490px;
+	width: 100%;
+	padding-top: 170px;
+}
+
+.item1 .box
+{
+	height: 100%;
+	overflow: hidden;
+}
+
+.item1 .box .title
+{
+	position: relative;
+    font-size: 42px;
+    line-height: 42px;	
+    display: inline-block;
+    left: 0px;
+}
+
+.item1 .box .desr
+{
+	position: relative;
+	font-size: 18px;
+    margin-top: 20px;
+    line-height: 18px;
+    color: #999;	
+    display: inline-block;
+    left: 0px;
+}
+
+#item1 
+{
+	background: url(../img/zt-img/apppt.jpg) no-repeat 50% 0;
+}
+
+#item2 
+{
+	background: url(../img/zt-img/appzxj.jpg) no-repeat 50% 0;
+}
+#item3 
+{
+	background: url(../img/zt-img/appqd.jpg) no-repeat 50% 0;
+}
+
+#item4 
+{
+	background: url(../img/zt-img/apphb.jpg) no-repeat 50% 0;
+}
+
+.pic
+{
+	width: 100%;
+	/*height: 585px;*/
+	height: 0;
+	overflow: hidden;
+}
+
+.pic ul
+{
+	height: 100%;
+	padding-top: 80px;
+}
+.pic ul li
+{
+	float: left;
+	display: block;
+	width: 356px;
+	height: 505px;
+	margin-right: 7px;
+}

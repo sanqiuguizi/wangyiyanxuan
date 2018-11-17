@@ -1,0 +1,444 @@
+.logoarea
+{
+	position: relative;
+	height: 600px;
+	width: 100%;
+	background: url(../img/zt-img/login-banner.jpg) no-repeat 50% 0;
+}
+
+.logoarea .box
+{
+	width: 384px;
+	height: 400px;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	margin-top: -200px;
+	background: white;
+	border: 1px solid #F5F3EF;
+	padding: 20px 39px;
+}
+
+.logoarea .box .title
+{
+	width: 306px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.logoarea .box .title span
+{
+	color: #333;
+	font-size: 18px;
+	line-height: 18px;
+	display: block;
+	height: 20px;
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+}
+
+.logoarea .box .title span[id='select']
+{
+	color: #999;
+}
+
+.logoarea .box .other
+{
+	height: 32px;
+}
+
+.logoarea .box .other span
+{
+	float: right;
+	line-height: 32px;
+	color: #666;
+}
+.logoarea .box .phone
+{
+	width: 304px;
+    height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    border-radius: 2px
+}
+
+.logoarea .box .phone .phoneimg
+{
+	height: 100%;
+	width: 38px;
+	background: url(../img/zt-img/login-phone.png) no-repeat 8px 8px;
+	float: left;
+}
+.logoarea .box .phone input
+{
+	width: 150px;
+	outline: none;
+	border-left: 1px solid #e8e8e8;
+	text-indent: 1em;
+	height: 20px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.logoarea .box .scrollbar
+{
+	margin-top: 20px;
+	width: 304px;
+    height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    border-radius: 2px;
+}
+
+.logoarea .box .scrollbar .move
+{
+	position: relative;
+	height: 36px;
+	line-height: 36px;
+	width: 36px;
+	background: #CCCCCC;
+	display: inline-block;
+}
+
+.logoarea .box .yzm
+{
+	margin-top: 20px;
+	width: 304px;
+    height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    border-radius: 2px;
+}
+
+.logoarea .box .yzm input
+{
+	width: 150px;
+	outline: none;
+	border-left: 1px solid #e8e8e8;
+	text-indent: 1em;
+	height: 20px;
+	font-size: 16px;
+	line-height: 16px;	
+}
+.logoarea .box .yzm span
+{
+	display: block;
+	height: 100%;
+	width: 100px;
+	float: right;
+	background: #eee;
+	text-align: center;
+	line-height: 36px;
+}
+.logoarea .box .yzm span
+{
+	cursor: pointer;
+}
+
+.logoarea .box .login
+{
+	margin-top: 5px;
+    display: block;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #b4a078;
+    font-size: 18px;
+    line-height: 48px;
+    border-radius: 2px
+}
+
+.logoarea .box .otherway
+{
+	height: 60px;
+    background: #F5F3EF;
+    width: 383px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.logoarea .box .otherway div
+{
+	margin-top: 8px;
+	display: block;
+	width: 44px;
+	height: 44px;
+	float: left;
+}
+
+.logoarea .box .otherway div[id='one']
+{
+	margin-left: 39px;
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px 0px ;
+}
+
+.logoarea .box .otherway div[id='one']:hover
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -39px ;
+}
+
+.logoarea .box .otherway div[id='two']
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -78px ;
+}
+
+.logoarea .box .otherway div[id='two']:hover
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -158px ;
+}
+
+.logoarea .box .otherway div[id='three']
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -117px;
+}
+.logoarea .box .otherway div[id='three']:hover
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -197px ;
+}
+
+.logoarea .box .otherway div[id='four']
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -238px ;
+}
+.logoarea .box .otherway div[id='four']:hover
+{
+	background: url(../img/zt-img/sprites4.png) no-repeat 0px -282px ;
+}
+
+.logoarea .box .otherway a
+{
+	display: inline-block;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 22px;	
+}
+
+.logoarea .box .msg
+{
+	margin-top: 5px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: red;
+}
+
+
+/*<!--中间登录部分-->*/
+.contain{
+	width: 100%;
+	height: 600px;
+	background-color: tan;
+	background: url(../img/bg.jpg)center no-repeat;
+}
+.contain .con_con{
+	width: 1090px;
+	height: 543px;
+	margin: 0 auto;
+	/*border: 1px solid #000;*/
+}
+.contain .con_con .login{
+	position: relative;
+	float: left;
+	margin-top: 83px;
+    margin-left: 703px;
+	min-height: 460px;
+	width: 386px;
+	height: auto !important;
+	border: 1px solid #e8e8e8;
+	background-color: white;
+}
+.contain .con_con .login h1{
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    margin-left: 50px;
+    line-height: 18px;
+    padding:30px 40px 15px;
+    width: 100%;
+    height: auto;
+}
+.contain .con_con .login .user,.password{
+	display: inline-block;
+	margin-left: 50px;
+	height: 38px;
+	line-height: 38px;
+	width: 302px;
+	margin-top: 15px;
+	border: 1px solid #e8e8e8;
+	border-radius: 2px;
+	position: relative;
+}
+.contain .con_con .login .user .sp1,.password .sp1{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	/*border: 1px solid #000;*/
+	position: absolute;
+	right: 5px;
+	top: 8px;
+	background: url(../img/x.png)-4px -4px no-repeat;
+	display: none;
+	background-size: 28px;
+}
+.contain .con_con .login .user input,.password input{
+	outline: none;
+	border: none;
+	text-indent: 1em;
+}
+.contain .con_con .login .user i{
+	height: 24px;
+	width: 29px;
+	float: left;
+	margin-top: 9px;
+	margin-left: 10px;
+	border-right: 1px solid #e8e8e8;
+	display: inline-block;
+	background: url(../img/d6bd29fcf2096cb4c5d338e0fce13919.png)no-repeat;
+}
+.contain .con_con .login .password i{
+	height: 24px;
+	width: 29px;
+	margin-left: 10px;
+	float: left;
+	border-right: 1px solid #e8e8e8;
+	margin-top: 9px;
+	display: inline-block;
+	background: url(../img/178e29b95f152a8aa6490f4f7032a8e8.png)no-repeat;
+}
+.contain .con_con .login .pp{
+	/*border: 1px solid #000;*/
+	margin-top: 5px;
+	display: block;
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: red;
+	
+}
+.contain .con_con .login .pp img{
+	vertical-align:middle;
+}
+
+#!{
+	height: 20px;
+	width: 10px;
+	padding-right: 10px;
+}
+.contain .con_con .login .sum{
+	height: 48px;
+	width: 300px;
+	border: none;
+	margin-top: 10px;
+	font-size: 18px;
+	margin-left: 50px;
+	border-radius: 2px;
+	color: white;
+	cursor: pointer;
+	background-color: #b4a078;
+}
+.contain .con_con .login p{
+	font-size: 12px;
+	margin: 20px 0px 0px 50px;
+	color:#999;
+}
+
+.contain .con_con .login p a:first-child{
+	text-decoration: none;
+	color: #999;
+}
+.contain .con_con .login p a:last-child{
+	text-decoration: none;
+	float: right;
+	margin-right: 40px;
+	color: #999;
+}
+.contain .con_con .login p a:hover{
+	color: #b4a078;
+}
+
+.contain .con_con .login .way{
+	height: 150px;
+	width: 300px;
+	margin-left: 50px;
+	position: relative;
+	/*background-color: deepskyblue;*/
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.contain .con_con .login .way p:before{
+	content: '其他登录方式';
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    text-align: center;
+    width: 120px;
+    height: 30px;	
+    line-height: 30px;
+    margin-left: -60px;
+    background: #fff;
+    z-index: 2;
+    font-size: 14px;
+}
+.contain .con_con .login .way p:after{
+	content: '';
+    position: absolute;
+    top: 14%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #ddd;
+}
+.way ul{
+	text-align: center;
+	margin-top: 60px;
+	/*border: 1px solid #000;*/
+}
+.way ul li{
+	display: inline-block;	
+	text-align: center;
+	font-size: 13px;
+	margin-left: 20px;
+	/*border: 1px solid #000;*/
+}
+.way ul li i{
+	display:block;
+	height:30px;
+	width:30px;
+	background:url(../img/qqweixin.png)0px 0px no-repeat;
+}
+.way ul li i.QQ{
+	background:url(../img/qqweixin.png)100px 0px;
+}
+.way ul li i.weibo{
+	background:url(../img/qqweixin.png)30px 0px;
+}
+.way ul li i.wangyi{
+	margin-left: 13px;
+	background: url(../img/wy.png)5px 0px no-repeat;
+}
+.way ul li:hover a{
+	color: #b4a078;
+}
+.way ul li.weixin:hover i.weixin{
+	background-position: 0px -32px;
+}
+.way ul li.QQ:hover i.QQ{
+	background:url(../img/qqweixin.png)100px -32px;
+}
+.way ul li.weibo:hover i.weibo{
+	background:url(../img/qqweixin.png)30px -32px;
+}
+.way ul li.wangyi:hover i.wangyi{
+	margin-left: 13px;
+	background: url(../img/wy2.png)1px -4px no-repeat;
+}
+.way ul li a{
+	text-decoration: none;
+	color: #CCCCCC;	
+}
